@@ -1,0 +1,4 @@
+VER=36.0
+SRCTBL="https://github.com/linux-rdma/rdma-core/releases/download/v${VER}/rdma-core-${VER}.tar.gz"
+CHKSUM="sha256::1491ea4188c3475562acaba74a9b41fb4d4eb67c06e1b2c63b68958d87df8c8d"
+CHKUPDATE="anitya::id=12907"
