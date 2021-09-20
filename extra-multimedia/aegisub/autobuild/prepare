@@ -1,5 +1,3 @@
-sed 's/$(LIBS_BOOST) $(LIBS_ICU)/$(LIBS_BOOST) $(LIBS_ICU) -pthread/' -i tools/Makefile
-
-# FIXME: build fails with flags enabled
-# unset LDFLAGS CFLAGS CPPFLAGS CXXFLAGS
-acbs_copy_git
+abinfo 'Patching to add missing link flag...'
+sed -e 's/$(LIBS_BOOST) $(LIBS_ICU)/$(LIBS_BOOST) $(LIBS_ICU) -pthread/' \
+    -i "$SRCDIR"/tools/Makefile
