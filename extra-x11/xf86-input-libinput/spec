@@ -1,4 +1,4 @@
-VER=0.30.0
+VER=1.2.0
 SRCS="tbl::https://xorg.freedesktop.org/releases/individual/driver/xf86-input-libinput-$VER.tar.bz2"
-CHKSUMS="sha256::f9c7f9fd41ae14061e0e9c3bd45fa170e5e21027a2bc5810034e1e748db996c0"
+CHKSUMS="sha256::f80da3c514fe1cbf57fa1b1bd6ff97f6b0a1f87466ad89247bac59cd0a5869f6"
 CHKUPDATE="anitya::id=5782"
