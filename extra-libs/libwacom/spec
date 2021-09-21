@@ -1,5 +1,4 @@
-VER=1.9
-REL=1
+VER=1.11
 SRCS="tbl::https://github.com/linuxwacom/libwacom/releases/download/libwacom-${VER}/libwacom-${VER}.tar.bz2"
-CHKSUMS="sha256::68b14d4e3b75fed9f590bf6eaea361a72dc23e933b7725094c779477acf665c7"
+CHKSUMS="sha256::4580a8fbad067a5b187abe864ab80d42d8138d0caec394533bec67bf457e4c58"
 CHKUPDATE="anitya::id=16887"
