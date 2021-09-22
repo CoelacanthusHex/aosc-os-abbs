@@ -4,4 +4,4 @@ cp -rv "$SRCDIR"/automation/{autoload,demos,include} \
        "$PKGDIR"/usr/share/aegisub/automation
 
 abinfo 'Installing LICENSE...'
-install -Dvm644 "$SRCDIR"/LICENSE "$PKGDIR"/usr/share/doc/aegisub/LICENSE
+install -Dvm644 "$SRCDIR"/LICENCE "$PKGDIR"/usr/share/doc/aegisub/LICENSE
