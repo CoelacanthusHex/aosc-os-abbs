@@ -1,5 +1,4 @@
-VER=0.6.7
-REL=1
-SRCS="tbl::https://github.com/eatradish/meowdict/archive/refs/tags/$VER.tar.gz"
-CHKSUMS="sha256::7f38992e093bd62e25780f1443e74930926862662b8f4292ee96a01b4c12c183"
+VER=0.8.0
+SRCS="tbl::https://github.com/eatradish/meowdict/archive/refs/tags/v$VER.tar.gz"
+CHKSUMS="sha256::8459cf3ca06f6c060f69f434d2b222f7e8832feff7b86a0778572ef057c57729"
 CHKUPDATE="anitya::id=228907"
