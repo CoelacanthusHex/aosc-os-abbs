@@ -17,7 +17,7 @@
 	// }
 	"Package Name":{
 		"prefix": ["PKGNAME", "pkgname"],
-		"body": "PKGNAME=\"${RELATIVE_FILEPATH/[^\/\\]+[\/\\]([^\/\\]+).*/$1/}\"",
+		"body": "PKGNAME=${RELATIVE_FILEPATH/[^\\\/\\\\]+[\\\/\\\\]([^\\\/\\\\]+).*/$1/}",
 		"description": "package name"
 	}
 }
