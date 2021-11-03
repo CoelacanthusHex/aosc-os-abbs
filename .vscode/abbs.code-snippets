@@ -17,7 +17,47 @@
 	// }
 	"Package Name":{
 		"prefix": "PKGNAME",
-		"body": "PKGNAME=${RELATIVE_FILEPATH/[^\\\/\\\\]+[\\\/\\\\]([^\\\/\\\\]+).*/$1/}",
+		"body": "PKGNAME=\"${RELATIVE_FILEPATH/[^\\\/\\\\]+[\\\/\\\\]([^\\\/\\\\]+).*/$1/}\"",
 		"description": "Package name"
+	},
+	"Package Description":{
+		"prefix": "PKGDES",
+		"body": "PKGDES=\"${1:package_description}\"",
+		"description": "Pakcage description"
+	},
+	"Package Dependency":{
+		"prefix": "PKGDEP",
+		"body": "PKGDEP=\"${1:package_dependency}\"",
+		"description": "Package dependency"
+	},
+	"Package Section":{
+		"prefix": "PKGSEC",
+		"body": "PKGSEC=\"${1:package_section}\"",
+		"description": "Package section"
+	},
+	"Build Dependency":{
+		"prefix": "BUILDDEP",
+		"body": "BUILDDEP=\"${1:build_dependency}\"",
+		"description": "Package build dependency"
+	},
+	"Version":{
+		"prefix": "VER",
+		"body": "VER=\"${1:version}\"",
+		"description": "Package version",
+	},
+	"Checksum":{
+		"prefix": "CHKSUMS",
+		"body": "CHKSUMS=\"${1:checksum}\"",
+		"description": "Package tarball checksum"
+	},
+	"Check update":{
+		"prefix": "CHKUPDATE",
+		"body": "CHKUPDATE=\"${1:check_update}\"",
+		"description": "Package check update method"
+	},
+	"Package Souce URL":{
+		"prefix": "SRCS",
+		"body": "SRCS=\"${source_url}\"",
+		"description": "Package download method"
 	}
 }
