@@ -1,0 +1,3 @@
+VER=0+git20211123
+SRCS="git::commit=9e3597d35d8515fa4d9630b0d760875c89445b0a::https://github.com/AOSC-Dev/omakase"
+CHKSUMS="SKIP"
