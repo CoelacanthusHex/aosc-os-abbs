@@ -1,3 +1,4 @@
-VER=5.14.15
-DUMMYSRC=1
+VER=5.15.4
+SRCS="tbl::https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-${VER/.0/}.tar.xz"
+CHKSUMS="sha256::549d0fb75e65f6158e6f4becc648f249d386843da0e1211460bde8b1ea99cbca"
 CHKUPDATE="anitya::id=6501"
